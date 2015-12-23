@@ -1,4 +1,4 @@
-package src204;
+package src202;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ public class Main {
 		if (System.getProperty("Debug") != null)
 		{
 			try {
-				System.setIn(new FileInputStream("src/src204/input"));
+				System.setIn(new FileInputStream("src/src202/input"));
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			}
